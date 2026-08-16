@@ -1,0 +1,10 @@
+{
+  "claim": {"subject": "9hcr1e.example", "predicate": "resolves_to", "value": "203.0.113.20"},
+  "asOf": "2026-08-01T00:00:00Z",
+  "stalenessDays": 180,
+  "sources": [
+    {"id": "s2", "type": "dns", "origin": "resolver-a", "observedAt": "2026-07-30T00:00:00Z", "value": "203.0.113.20", "authoritative": false},
+    {"id": "s1", "type": "dns", "origin": "resolver-a", "observedAt": "2026-07-15T00:00:00Z", "value": "203.0.113.20", "authoritative": false},
+    {"id": "s3", "type": "ct_log", "origin": "crt-sh", "observedAt": "2026-06-01T00:00:00Z", "value": "203.0.113.20", "authoritative": false}
+  ]
+}
